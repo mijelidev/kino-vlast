@@ -1,0 +1,15 @@
+Datum	Čas	Název filmu	Žánr (dle popisu)	Detaily	Vstupné	Trailer
+2. PONDĚLÍ	19:00	ZBĚSILÁ LÁSKA	Romantický, Drama	Francie • 2024 • 166' • titulky • do 12 let nevhodný	110,- Kč	https://www.youtube.com/watch?v=FDj4O9-KN60
+3. ÚTERÝ	19:00	ZÚČTOVÁNÍ 2	Akční, Thriller	USA • 2025 • 132' • titulky • do 12 let nevhodný	100,- Kč	https://www.youtube.com/watch?v=V2eG2FBIGI4
+5. ČTVRTEK	18:00	LILO & STITCH	Rodinný, Animovaný, Sci-fi	USA • 2025 • 108' • dabing • přístupný	140,- Kč	https://www.youtube.com/watch?v=VWqJifMMgZE
+9. PONDĚLÍ	19:00	THUNDERBOLTS*	Akční, Komiksový, Dobrodružný	USA • 2025 • 127' • dabing • do 12 let nevhodný	140,- Kč	https://www.youtube.com/watch?v=-sAOWhvheK8
+10. ÚTERÝ	19:00	MAGOŘI NA KOLE	Dokumentární, Sportovní	ČR • 2025 • 85' • přístupný	130,- Kč	https://www.youtube.com/watch?v=GV0CtR0mWc8
+11. STŘEDA	19:00	NEBEZPEČNÉ SNY	Drama, Erotický, Psychologický	USA • 2025 • 95' • titulky • do 12 let nevhodný	170,- Kč	https://www.youtube.com/watch?v=4vUJGg9nv08
+12. ČTVRTEK	19:00	MOŘE NA DVOŘE	Komedie, Drama, Romantický	ČR • 2025 • 102'	100,- Kč	https://www.youtube.com/watch?v=lWZ3ibEivlA
+16. PONDĚLÍ	19:00	MOUDROST ŠTĚSTÍ	Dokumentární	Švýcarsko • 2024 • 96' • titulky • do 12 let nevhodný	110,- Kč	https://www.youtube.com/watch?v=8adC0rfZ8Dw
+17. ÚTERÝ	19:00	MISSION: IMPOSSIBLE – POSLEDNÍ ZÚČTOVÁNÍ	Akční, Thriller, Dobrodružný	USA • 2025 • 169' • titulky • do 12 let nevhodný	150,- Kč	https://www.youtube.com/watch?v=pxOQpwqRlBU
+19. ČTVRTEK	18:00	POHÁDKY PRO HURVÍNKA	Loutkový, Pohádka, Rodinný	ČR • 2024 • 75'	130,- Kč	https://www.youtube.com/watch?v=XwgprGwgZA8
+23. PONDĚLÍ	19:00	BOLERO	Životopisný, Drama, Hudební	Francie • 2024 • 121' • titulky • do 15 let nevhodný	140,- Kč	https://www.youtube.com/watch?v=FSIqHhcMCWE
+24. ÚTERÝ	19:00	BALERÍNA	Akční, Thriller	USA • 2025 • 125' • titulky • do 15 let nepřístupný	130,- Kč	https://www.youtube.com/watch?v=0FSwsrFpkbw
+26. ČTVRTEK	19:00	HIGH SCHOOL HEIST	Komedie	ČR • 2025 • 99' • přístupný	140,- Kč	https://www.youtube.com/watch?v=jdo7szUXhNU
+30. PONDĚLÍ	19:00	KRTKŮV SVĚT	Drama (podle skutečné události)	ČR • 2025 • 75' • do 12 let nevhodný	150,- Kč	https://www.youtube.com/watch?v=Lp2hs3bTt2Y

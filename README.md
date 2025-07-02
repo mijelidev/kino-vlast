@@ -10,6 +10,7 @@ Tento projekt je jednoduchá statická webová stránka vytvořená pomocí HTML
 
 *   Zobrazení programu kina (placeholder)
 *   Přidáné emoji
+*   Text "Originální program kina" změněn na "Oficiální program kina"
 
 ## Spuštění
 
