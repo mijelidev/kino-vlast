@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Program kina Vlast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+        }
+        @media (max-width: 1024px) {
+            /* Hide Žánr (3rd column) */
+            table th:nth-child(3),
+            table td:nth-child(3) {
+                display: none;
+            }
+            /* Hide Země (4th column) */
+            table th:nth-child(4),
+            table td:nth-child(4) {
+                display: none;
+            }
+            /* Hide Rok (5th column) */
+            table th:nth-child(5),
+            table td:nth-child(5) {
+                display: none;
+            }
+            /* Hide Verze (7th column) */
+            table th:nth-child(7),
+            table td:nth-child(7) {
+                display: none;
+            }
+        }
+        /* No-wrap for Datum a čas (1st column) */
+        table td:nth-child(1) {
+            white-space: nowrap;
+        }
+    </style>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-300 p-8">
+    <h1 class="text-3xl font-bold mb-6 text-center dark:text-white">Program kina Vlast - Janské Lázně - Červenec 2025</h1>
+    <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="py-3 px-6">Datum a čas</th>
+                    <th scope="col" class="py-3 px-6">Název filmu</th>
+                    <th scope="col" class="py-3 px-6">Žánr</th>
+                    <th scope="col" class="py-3 px-6">Země</th>
+                    <th scope="col" class="py-3 px-6">Rok</th>
+                    <th scope="col" class="py-3 px-6">Délka</th>
+                    <th scope="col" class="py-3 px-6">Verze</th>
+                    <th scope="col" class="py-3 px-6">Vstupné</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Út | 1. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=ER1z4e1YrZQ" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Fénixe spiknutí</a></td>
+                    <td class="py-4 px-6">Komedie / Špionážní / Thriller</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">107'</td>
+                    <td class="py-4 px-6">titulky</td>
+                    <td class="py-4 px-6">120,-</td>
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Čt | 3. 7. - 18:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=_bK_PJ80igg" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Jak vycvičit draka</a></td>
+                    <td class="py-4 px-6">Animovaný / Rodinný / Dobrodružný / Fantasy</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">125'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">120,-</td>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Po | 7. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=WdBFbSFMJ-c" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">28 let poté</a></td>
+                    <td class="py-4 px-6">Post-apokalyptický / Horor / Akční / Sci-Fi / Thriller</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">120'</td>
+                    <td class="py-4 px-6">titulky</td>
+                    <td class="py-4 px-6">140,-</td>
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Út | 8. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=DSMM_JGczYg" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Kapelo, hraj</a></td>
+                    <td class="py-4 px-6">Komedie / Drama</td>
+                    <td class="py-4 px-6">Francie</td>
+                    <td class="py-4 px-6">2024</td>
+                    <td class="py-4 px-6">103'</td>
+                    <td class="py-4 px-6">titulky</td>
+                    <td class="py-4 px-6">100,-</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Čt | 10. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=x5Hs5_x_ygQ" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Vyšehrad Dvje</a></td>
+                    <td class="py-4 px-6">Komedie / Sportovní / Satira</td>
+                    <td class="py-4 px-6">ČR</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">120'</td>
+                    <td class="py-4 px-6">-</td>
+                    <td class="py-4 px-6">120,-</td>
+
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Po | 14. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=8kgHtZv9FUE" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Žlutou žábou do země modrého nebe</a></td>
+                    <td class="py-4 px-6">Dokumentární / Road movie</td>
+                    <td class="py-4 px-6">ČR</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">125'</td>
+                    <td class="py-4 px-6">-</td>
+                    <td class="py-4 px-6">100,-</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Út | 15. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=twJ3Hfbqvsk" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">F1</a></td>
+                    <td class="py-4 px-6">Sportovní / Drama / Akční</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">150'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">120,-</td>
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Čt | 17. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=KXho3LlGaZA" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Elio</a></td>
+                    <td class="py-4 px-6">Animovaný / Dobrodružný / Sci-Fi / Komedie / Rodinný</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">100'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">120,-</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Po | 21. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=U5hEzVNNZt4" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Jurský svět: Znovuzrození</a></td>
+                    <td class="py-4 px-6">Sci-Fi / Dobrodružný / Akční / Drama</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">130'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">160,-</td>
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Út | 22. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=4GM7NGYcN34" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Bacha na držičku!</a></td>
+                    <td class="py-4 px-6">Akční / Komedie</td>
+                    <td class="py-4 px-6">USA, Itálie</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">100'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">120,-</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Čt | 24. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=DVevdG7tjlg" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Sbormistr</a></td>
+                    <td class="py-4 px-6">Drama</td>
+                    <td class="py-4 px-6">ČR, SK</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">120'</td>
+                    <td class="py-4 px-6">-</td>
+                    <td class="py-4 px-6">150,-</td>
+
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Po | 28. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=XOTGjxMb2Jo" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Rituál</a></td>
+                    <td class="py-4 px-6">Horor</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">98'</td>
+                    <td class="py-4 px-6">titulky</td>
+                    <td class="py-4 px-6">150,-</td>
+                </tr>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                    <td class="py-4 px-6">Út | 29. 7. - 19:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://www.youtube.com/watch?v=2K1RkNzQBlw" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Kouzlo derby</a></td>
+                    <td class="py-4 px-6">Komedie / Romantický</td>
+                    <td class="py-4 px-6">ČR</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">120'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">150,-</td>
+                </tr>
+                <tr class="bg-gray-50 border-b dark:bg-gray-700 dark:border-gray-700">
+                    <td class="py-4 px-6">Čt | 31. 7. - 18:00</td>
+                    <td class="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-white"><a href="https://youtu.be/ueXqI7OhlEA" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Šmoulové ve filmu</a></td>
+                    <td class="py-4 px-6">Animovaný / Rodinný / Fantasy / Komedie</td>
+                    <td class="py-4 px-6">USA</td>
+                    <td class="py-4 px-6">2025</td>
+                    <td class="py-4 px-6">92'</td>
+                    <td class="py-4 px-6">dabing</td>
+                    <td class="py-4 px-6">150,-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="text-center mt-4">Originální program kina: <a href="https://janske-lazne.cz/cs/pro-navstevniky/kino/" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">https://janske-lazne.cz/cs/pro-navstevniky/kino/</a></p>
+    <footer class="mt-8 text-center text-xs text-gray-500 dark:text-gray-400">
+        <p>Disclaimer: stránka je jen informativní, použité odkazy trailerů nemusí fungovat.</p>
+        <p class="mt-2">© 2025 Stránka byla generovaná Google Gemini-2.5-pro</p>
+    </footer>
+</body>
+</html>
