@@ -9,8 +9,6 @@ Tento projekt je jednoduchá statická webová stránka vytvořená pomocí HTML
 ## Funkce
 
 *   Zobrazení programu kina (placeholder)
-*   Informace o kinu (placeholder)
-*   Kontaktní formulář (placeholder)
 
 ## Spuštění
 
